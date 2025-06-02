@@ -469,7 +469,7 @@ const Layout = ({sidebarList,pageTitle,childPage}) => {
               }}
             >
               <Typography variant="body2" color="text.secondary">
-                EzyMarket - Version 1.0.0 (2024)
+                Quicko [IM/OM/WM] - Version 1.0.0 (2025)
               </Typography>
             </Box>
           </Box>

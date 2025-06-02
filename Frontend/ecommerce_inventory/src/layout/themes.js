@@ -73,8 +73,8 @@ export const orangeDarkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
 });
 
@@ -151,8 +151,8 @@ export const orangeLightTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 });
 
@@ -232,8 +232,8 @@ export const redDarkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
 });
 
@@ -312,8 +312,8 @@ export const redLightTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 
 });
@@ -390,8 +390,8 @@ export const greenDarkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
 });
 export const greenLightTheme = createTheme({
@@ -469,8 +469,8 @@ export const greenLightTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 
 });
@@ -548,8 +548,8 @@ export const blueDarkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
 
 });
@@ -629,8 +629,8 @@ export const blueLightTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 });
 
@@ -702,8 +702,8 @@ export const customTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 });
 export const lightTheme = createTheme({
@@ -802,8 +802,8 @@ export const lightTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_dark.png',
-    square:'/logo_square_dark.png',
+    rectangle:'/logo_square_dark.svg',
+    square:'/logo_square_dark.svg',
   },
 
 });
@@ -878,8 +878,8 @@ export const darkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
 });
 export const basicTheme = createTheme({
@@ -914,8 +914,8 @@ export const basicTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.png',
-    square:'/logo_square_light.png',
+    rectangle:'/logo_light.svg',
+    square:'/logo_light.svg',
   },
   components: {
     MuiButton: {
