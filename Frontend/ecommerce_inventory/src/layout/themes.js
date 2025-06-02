@@ -73,8 +73,8 @@ export const orangeDarkTheme = createTheme({
     },
   },
   logo:{
-    rectangle:'/logo_light.svg',
-    square:'/logo_light.svg',
+    rectangle:'https://quicko-uploads.s3.ap-south-1.amazonaws.com/logos/logo_light.svg',
+    square:'https://quicko-uploads.s3.ap-south-1.amazonaws.com/logos/logo_light.svg',
   },
 });
 
