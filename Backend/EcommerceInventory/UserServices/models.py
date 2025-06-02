@@ -33,16 +33,16 @@ class Users(AbstractUser):
     created_at=models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now=True)
 
-    # def defaultkey():
-    #     return 'username'
+    def defaultkey():
+        return 'username'
     
-    # def save(self, *args, **kwargs):
-    #     if not self.domain_user_id and self.id:
-    #         self.domain_user_id=Users.objects.get(id=self.id)
+    def save(self, *args, **kwargs):
+        if not self.domain_user_id and self.id:
+            self.domain_user_id=Users.objects.get(id=self.id)
 
-    #     if not self.pk or Users.objects.filter(pk=self.pk).values('password').first()['password']!=self.password:
-    #         self.password=make_password(self.password)
-    #     super().save(*args, **kwargs)
+        if not self.pk or Users.objects.filter(pk=self.pk).values('password').first()['password']!=self.password:
+            self.password=make_password(self.password)
+        super().save(*args, **kwargs)
     
 
 class UserShippingAddress(models.Model):
